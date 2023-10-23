@@ -11,7 +11,7 @@ export default function Home() {
 
     const formData = new FormData(e.currentTarget);
 
-    const response = await fetch("api/chat", {
+    const response = await fetch("api/langchain", {
       method: "POST",
       body: JSON.stringify({
         prompt: formData.get("prompt"),
