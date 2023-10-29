@@ -38,8 +38,6 @@ export default function Home() {
     }
   };
 
- 
-
   const handleClearChat = () => {
     setStreamedData("");
   };
