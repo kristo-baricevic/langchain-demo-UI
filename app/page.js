@@ -11,6 +11,8 @@ export default function Home() {
 
     const formData = new FormData(e.currentTarget);
 
+    console.log("formData", formData);
+
     const response = await fetch("api/langchain", {
       method: "POST",
       body: JSON.stringify({
