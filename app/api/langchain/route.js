@@ -1,6 +1,7 @@
 import { ChatOpenAI } from "langchain/chat_models/openai";
 import { HumanMessage } from "langchain/schema";
 
+//run the prompt through the LLM chain
 const runLLMChain = async (prompt) => {
     const encoder = new TextEncoder();
 
@@ -28,6 +29,8 @@ const runLLMChain = async (prompt) => {
     return stream.readable;
 };
 
+
+//The request holds the prompt value, which is sent from the handleSubmit on page.js
 export async function POST(req){
     const {prompt} = await req.json();
 
