@@ -44,7 +44,7 @@ export default function Home() {
 
   return (
     <main className="flex max-w-6xl mx-auto items-center justify-center p-12 bg-blue-500">
-      <div className="border-blue-800 border-solid border-4 rounded-xl px-4 py-8 bg-red-300 shadow-lg">
+      <div className="flex min-w-4xl border-blue-800 border-solid border-4 rounded-xl px-4 py-8 bg-red-300 shadow-lg">
         <div className="flex flex-col gap-12 border-blue-800 border-solid rounded-xl border-4 py-4 px-4 bg-blue-200 shadow-md">
           <h1 className="text-slate-600 font-extrabold text-6xl text-center">
             Chatbot Demo
