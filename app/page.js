@@ -64,14 +64,14 @@ export default function Home() {
               <div className="flex justify-center gap-4 px-4 py-4">
                 <button 
                   type="submit" 
-                  className="py-2 px-4 rounded-md text-sm bg-green-700 text-white hover:opacity-80 transition-opacity">
+                  className="py-2 px-4 rounded-full text-sm bg-blue-700 text-white hover:opacity-80 transition-opacity shadow-md">
                     Send Chat
                 </button>
 
                 <button 
                   type="button" 
                   onClick={handleClearChat}
-                  className="py-2 px-4 rounded-md text-sm bg-red-700 text-white hover:opacity-80 transition-opacity">
+                  className="py-2 px-4 rounded-md text-sm bg-black text-white hover:opacity-80 transition-opacity shadow-lg">
                     Clear Chat
                 </button>
 
